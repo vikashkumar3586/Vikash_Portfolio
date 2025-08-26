@@ -1,0 +1,2 @@
+in 512 line:
+    i changed line no. 47 and 470 (both false)

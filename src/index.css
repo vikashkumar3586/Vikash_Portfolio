@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+:root {
+    --bg-dark: #000;
+    --bg-light: #fff;
+    --text-dark: #f5f5f5;
+    --text-light: #111111;
+    --text-hover-dark: #c0c0c0;
+    --text-hover-light: #444444;
+
+    /* for testing */
+    /* --text-hover-dark: yellow; */
+    /* --text-hover-light: red; */
+
+    --button-bg-dark: #1a1a1a;
+    --button-bg-light: #e0e0e0;
+    --button-bg-hover-dark: #333333;
+    --button-bg-hover-light: #d0d0d0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body.dark {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+}
+
+body.light {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee-reverse {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes spin-reverse {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.spin-reverse {
+    animation: spin-reverse 10s linear infinite;
+}
+
+.loader-light{
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: l5-dark 1s infinite linear alternate;
+}
+
+.loader-dark {
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #0002;
+    animation: l5-light 1s infinite linear alternate;
+}
+
+@keyframes l5-dark {
+    0% {
+        box-shadow: 20px 0 #000, -20px 0 #0002;
+        background: #000
+    }
+
+    33% {
+        box-shadow: 20px 0 #000, -20px 0 #0002;
+        background: #0002
+    }
+
+    66% {
+        box-shadow: 20px 0 #0002, -20px 0 #000;
+        background: #0002
+    }
+
+    100% {
+        box-shadow: 20px 0 #0002, -20px 0 #000;
+        background: #000
+    }
+}
+
+@keyframes l5-light {
+    0% {
+        box-shadow: 20px 0 #fff, -20px 0 #fff2;
+        background: #fff;
+    }
+
+    33% {
+        box-shadow: 20px 0 #fff, -20px 0 #fff2;
+        background: #fff2;
+    }
+
+    66% {
+        box-shadow: 20px 0 #fff2, -20px 0 #fff;
+        background: #fff2;
+    }
+
+    100% {
+        box-shadow: 20px 0 #fff2, -20px 0 #fff;
+        background: #fff;
+    }
+}
+
+
+
+.clamp-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Change this number for lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+}
+
+.animate-slide-in {
+    animation: slide-in 0.5s ease-out forwards;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
