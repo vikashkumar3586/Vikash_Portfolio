@@ -1,4 +1,4 @@
-# 🚀 dev_portfolio
+# 🚀 vikash_portfolio
 
 A sleek, modern, full-stack personal portfolio built with **React**, **Tailwind CSS**, and **Node.js** — with powerful real-time integrations like **LeetCode**, **CodeChef**, **Spotify**, and **GitHub APIs**.
 
@@ -44,10 +44,10 @@ A sleek, modern, full-stack personal portfolio built with **React**, **Tailwind 
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Devkant01/dev_portfolio.git
+git clone https://github.com/vikashkumar3586/vikash_portfolio.git
 
 # 2. Move into the project directory
-cd dev_portfolio
+cd vikash_portfolio
 
 # 3. Install all dependencies for both frontend & backend
 npm run install-all
@@ -82,5 +82,5 @@ You can even try to break it — I'm **CI/CD ready** 😎
 
 ## 📬 Contact
 
-📧 **Email**: Vikashsah43@gmail.com  
-📱 **LinkedIn**: [DM-friendly on LinkedIn](https://www.linkedin.com/in/devkant01/)
+📧 **Email**: vikashkumar35867@gmail.com  
+📱 **LinkedIn**: [DM-friendly on LinkedIn](https://www.linkedin.com/in/vikash-pr/)
