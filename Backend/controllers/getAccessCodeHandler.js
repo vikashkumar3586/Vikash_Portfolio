@@ -5,7 +5,7 @@ const saveToEnv = require('./saveToEnv');
 const spotifyApi = new SpotifyWebApi({
     clientId: process.env.SPOTIFY_CLIENT_ID,
     clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
-    redirectUrl: process.env.REDIRECT_URL,
+    redirectUri: process.env.REDIRECT_URL,
 });
 
 spotifyApi.setRefreshToken(process.env.SPOTIFY_REFRESH_TOKEN);

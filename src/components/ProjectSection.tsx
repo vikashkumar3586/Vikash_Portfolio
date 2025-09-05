@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import { Link } from 'react-router-dom';
-import flashDownload from '/assets/projects/pro_12.png';
-import cyberFiction from '/assets/projects/pro_10.png';
+// import flashDownload from '/assets/projects/pro_12.png';
+// import cyberFiction from '/assets/projects/pro_10.png';
 import ProjectCard from './ProjectCard';
 
 function ProjectSection() {
@@ -14,11 +14,10 @@ function ProjectSection() {
       <p className='text-justify'>I’ve been crafting solid backends and sleek frontends that just work. Here’s a peek at some of my latest projects — check out more on the <Link to="/project" className="inline hover:underline text-blue-500">projects page!</Link></p>
       <div className='h-full w-full grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-4 mt-2 sm:mt-0'>
         <div className="leftProject h-full w-full ">
-          <ProjectCard imgSrc={'pro_12'} title={'Flash Download'} description={leftDesc} timeStamp={'10 feb, 2025 - 28 march, 2025'} status={true} techStack={["React.js", "TailwindCSS", "Node.js", "Express.js"]} codeLink='https://github.com/Devkant01/Media-Downloader-FlashDownload' />
+          <ProjectCard imgSrc={'pro_12'} title={'Shop Mart'} description={leftDesc} timeStamp={'10 feb, 2025 - 28 march, 2025'} status={true} techStack={["React.js", "TailwindCSS", "Node.js", "Express.js"]} codeLink='https://github.com/vikashkumar3586/Shop_Mart' />
         </div>
         <div className="rightProject h-full w-full ">
-          {/* <ProjectCard imgSrc={'pro_11'} title={'cyberfiction.io'} description={rightDesc} timeStamp={"Nov 1, 2024 - December 15, 2025"} status={false} techStack={["JavaScript", "TailwindCSS", "GSAP", "Canvas"]} liveLink='https://devkant01.github.io/cyberfiction/' codeLink='https://github.com/Devkant01/cyberfiction'/> */}
-          <ProjectCard imgSrc={'pro_11'} title={'Todoify'} description={rightDesc} timeStamp={"Nov 1, 2024 - December 15, 2025"} status={true} techStack={["ejs", "Node.js", "Express.js", "MongoDB"]} liveLink='https://todoify-djff.onrender.com/' codeLink='https://github.com/Devkant01/Todoify'/>
+          <ProjectCard imgSrc={'pro_11'} title={'Todoify'} description={rightDesc} timeStamp={"Nov 1, 2024 - December 15, 2025"} status={true} techStack={["ejs", "Node.js", "Express.js", "MongoDB"]} liveLink='https://todoify-djff.onrender.com/' codeLink='https://github.com/vikashkumar3586/Wanderlust'/>
         </div>
       </div>
     </div>

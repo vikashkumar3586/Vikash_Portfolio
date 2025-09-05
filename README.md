@@ -2,7 +2,7 @@
 
 A sleek, modern, full-stack personal portfolio built with **React**, **Tailwind CSS**, and **Node.js** — with powerful real-time integrations like **LeetCode**, **CodeChef**, **Spotify**, and **GitHub APIs**.
 
-> Deployed on [**Vercel**](https://portfolio-devkants-projects.vercel.app/), designed to be lightweight, dynamic, and developer-friendly.
+> Deployed on [**Vercel**](https://vikash-portfolio-delta.vercel.app/), designed to be lightweight, dynamic, and developer-friendly.
 
 ---
 

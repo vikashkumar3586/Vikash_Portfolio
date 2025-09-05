@@ -7,10 +7,10 @@ import { useTheme } from '../../services/ThemeProvider'; // Replace with actual 
 const CurrentFocused = () => {
     const { theme } = useTheme();
 
-    const projectName = "dev_Portfolio";
+    const projectName = "vikash_Portfolio";
     const projectDescription = "A clean, fast, and minimal dev portfolio + blog platform";
     const techStack = "Pure MERN Stack + tailwindcss & GSAP for styling and animations";
-    const repoUrl = "https://github.com/devkant01/dev_portfolio";
+    const repoUrl = "https://github.com/vikashkumar3586/Vikash_Portfolio";
 
     return (
         <div className={`w-full flex flex-col items-start justify-start gap-y-2`}>

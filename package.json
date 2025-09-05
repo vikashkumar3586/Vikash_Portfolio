@@ -1,5 +1,5 @@
 {
-  "name": "dev_portfolio",
+  "name": "vikash_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,6 +17,7 @@
     "@tsparticles/engine": "^3.0.2",
     "@tsparticles/react": "^3.0.0",
     "axios": "^1.9.0",
+    "express": "^5.1.0",
     "gsap": "^3.13.0",
     "lucide-react": "^0.513.0",
     "react": "^19.1.0",
